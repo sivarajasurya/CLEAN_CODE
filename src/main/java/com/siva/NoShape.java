@@ -1,0 +1,10 @@
+package com.siva;
+
+public class NoShape implements Shape{
+
+    @Override
+    public double area() {
+        throw new IllegalStateException(
+                "Cannot calculate the area");
+    }
+}
